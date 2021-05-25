@@ -3,6 +3,7 @@ import logging
 import random
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from __future__ import print_function
 
 B_TOKEN = os.getenv("BOT_TOKEN")
 API_ID = os.getenv("OWNER_API_ID")
