@@ -30,6 +30,6 @@ async def _(client, message):
     await message.reply_text(text="Merhaba {} Ben Kazanç Zincir Bot\n\nKanala Katıldığınız İçin Teşekkür Ederim\n\nŞimdi Üyelik İşlemini Tamamla Kolay Ve Rahat Para Kazanmanın Keyfini Sür.\n\nHakkında Ve S.S.S i Oku.\n\nİyi Kazançlar Dilerim...".format(
       usermention, 
       )
-      reply_markup=button()
+      reply_markup=button
       )
 K_G.run()
