@@ -26,6 +26,7 @@ def button():
 async def _(client, message):
 	user = message.from_user
     
+    await message.reply_text(text="🖐 Merhaba {} Ben Kazanç Zinciri Bot        🔱 Kanala Katıldığınız İçin Teşekkür Ederim.        ⚜️ Şimdilik  Üyelik İşlemini Tamamla, Kolay Ve Rahat Para Kazanmanın Keyfini Çıkart.        ✅ Hakında Ve S.S.S'yi Oku, İyi Kazançlar Dilerim".format(
 		user.mention,
 		),
 	disable_web_page_preview=True,
