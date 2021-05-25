@@ -20,8 +20,6 @@ K_G = Client(
 	)
 def button():
 	BUTTON=[[InlineKeyboardButton(text="??????? Sahibim ",url="t.me/EMREWOLF")]]
-    BUTTON=[[InlineKeyboardButton(text="buton",url="t.me/gitaristbey")]]
-    BUTTON=[[InlineKeyboardButton(text="buton2",url="t.me/gitaristsarkilari")]]
 	return InlineKeyboardMarkup(BUTTON)
     
 @K_G.on_message(filters.command("start"))
