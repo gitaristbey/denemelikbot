@@ -27,9 +27,9 @@ def button():
 async def _(client, message):
     user = mesage.from_user
     
-    await message.reply_text(text="Merhaba {} Ben KazanÃ§ Zincir Bot\n\nKanala KatÄ±ldÄ±ÄŸÄ±nÄ±z Ä°Ã§in TeÅŸekkÃ¼r Ederim\n\nÅimdi Ãœyelik Ä°ÅŸlemini Tamamla Kolay Ve Rahat Para KazanmanÄ±n Keyfini SÃ¼r.\n\nHakkÄ±nda Ve S.S.S i Oku.\n\nÄ°yi KazanÃ§lar Dilerim...".format(
+    await message.reply_text(text="Merhaba {} Ben Kazanç Zincir Bot\n\nKanala Katıldığınız İçin Teşekkür Ederim\n\nŞimdi Üyelik İşlemini Tamamla Kolay Ve Rahat Para Kazanmanın Keyfini Sür.\n\nHakkında Ve S.S.S i Oku.\n\nİyi Kazançlar Dilerim...".format(
       usermention, 
       )
-      reply_markup=button
+      reply_markup=button()
       )
 K_G.run()
