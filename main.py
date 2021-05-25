@@ -22,13 +22,15 @@ def button():
 	BUTTON=[[InlineKeyboardButton(text="??????? Sahibim ",url="t.me/EMREWOLF")]]
 	return InlineKeyboardMarkup(BUTTON)
     
-@K_G.on_message(filters.command("start"))
+@k_G.on_message(filters.command("start"))
 async def _(client, message):
-	user = message.from_user
+    user = mesage.from_user
     
-    await message.reply_text(text="🖐 Merhaba {} Ben Kazanç Zinciri Bot        🔱 Kanala Katıldığınız İçin Teşekkür Ederim.        ⚜️ Şimdilik  Üyelik İşlemini Tamamla, Kolay Ve Rahat Para Kazanmanın Keyfini Çıkart.        ✅ Hakında Ve S.S.S'yi Oku, İyi Kazançlar Dilerim".format(user.mention, ),
-	disable_web_page_preview=True,
-	reply_markup=button()
-	)
+    await message.reply_text(text="Merhaba {} Ben Kazanç Zincir Bot\n\nKanala Katıldığınız İçin Teşekkür Ederim\n\nŞimdi Üyelik İşlemini Tamamla Kolay Ve Rahat Para Kazanmanın Keyfini Sür.\n\nHakkında Ve S.S.S i Oku.\n\nİyi Kazançlar Dilerim...".format(
+      usermention, 
+      )
+    disable_web_page_preview=True
+    reply_markup=button()
+    )
     
 K_G.run()
