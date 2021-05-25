@@ -29,7 +29,7 @@ async def _(client, message):
     await message.reply_text(text="Merhaba {} Ben Kazanç Zincir Bot\n\nKanala Katıldığınız İçin Teşekkür Ederim\n\nŞimdi Üyelik İşlemini Tamamla Kolay Ve Rahat Para Kazanmanın Keyfini Sür.\n\nHakkında Ve S.S.S i Oku.\n\nİyi Kazançlar Dilerim...".format(
       usermention, 
       )
-    disable_web_page_preview=True
+    disable_web_page_preview=True,
     reply_markup=button()
     )
     
